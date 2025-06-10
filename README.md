@@ -146,6 +146,19 @@ huggingface-cli download meta-llama/Llama-4-Scout-17B-16E-Instruct-Original --lo
 
 You can install this repository as a [package](https://pypi.org/project/llama-models/) by just doing `pip install llama-models`
 
+## Streamlit Development GUI
+
+You can explore the models in a simple Streamlit interface. Install the
+extra dependency and run the app:
+
+```bash
+pip install streamlit
+streamlit run llama_models/streamlit_chat.py
+```
+
+The sidebar exposes common generation parameters and the UI defaults to
+dark mode.
+
 ## Responsible Use
 
 Llama models are a new technology that carries potential risks with use. Testing conducted to date has not — and could not — cover all scenarios.
